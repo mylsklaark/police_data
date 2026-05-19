@@ -7,12 +7,12 @@ This project showcases a lightweight data pipeline by querying the UK Police API
 transforming the returned JSON data, and loading it as converted CSV files into a 
 database that can be queried.
 
-# Prerequisites
+## Prerequisites
 
 - Python 3.12
 - pip
 
-Setup:
+## Setup:
 
 ```bash
 python -m venv .venv
@@ -20,14 +20,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# Data source
+## Data source
 
 - Data comes from the UK Police open data API (data.police.uk)
 - Street level crimes is the specific endpoint used
 - No authentication required
 - Default location is Oxford, but can be configured
 
-# Usage
+## Usage
 
 The pipeline runs the following steps on the first of each month via GitHub actions. Manual runs are the exception, not the rule. Each run ingests the last 12 months of street-level crime data and commits the results back to the repository.
 
@@ -37,20 +37,20 @@ python src/transform.py
 python src/load.py
 ```
 
-# Project structure
+## Project structure
 
 src/ingest.py       Fetches crime data from the API and saves raw JSON
 src/transform.py    Transforms raw JSON into flattened CSVs
 src/load.py         Loads processed CSVs into SQLite
 tests/              Unit tests mirroring the src/ structure
 
-# Data
+## Data
 
 Raw JSON responses are saved to data/raw/
 Processed CSVs are saved to data/processed/
 The SQLite database is at data/crime_data.db
 
-# Schema
+## Schema
 
 | Field | Description |
 |-------|-------------|
