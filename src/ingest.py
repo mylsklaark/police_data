@@ -59,6 +59,20 @@ def ingest(date: str, lat: float = 51.75, lng: float = -1.25) -> None:
     """
     response = fetch_crimes(date, lat, lng)
     save_raw(response, date)
+    
+def get_last_updated() -> datetime:
+    """Fetches the last updated date for crime data from the UK Police API.
+    
+    Returns:
+        datetime: The last updated date for crime data.
+    """
+    response = requests.get("https://data.police.uk/api/crime-last-updated")
+    try:
+        response.raise_for_status()
+    except requests.HTTPError as e:
+        logger.error("Error fetching last updated date: %s", e)
+        raise
+    return datetime.strptime(response.json()["date"], "%Y-%m")
 
 def ingest_time_window(months: int = 12, lat: float = 51.75, lng: float = -1.25) -> None:
     """Ingests crime data for a specified number of past months.
@@ -68,9 +82,9 @@ def ingest_time_window(months: int = 12, lat: float = 51.75, lng: float = -1.25)
         lat (float): The latitude for which to ingest crime data. Default is 51.75.
         lng (float): The longitude for which to ingest crime data. Default is -1.25.
     """
-    today = datetime.today()
+    latest = get_last_updated()
     for i in range(months):
-        date = (today - relativedelta(months=i)).strftime("%Y-%m")
+        date = (latest - relativedelta(months=i)).strftime("%Y-%m")
         ingest(date, lat, lng)
 
 if __name__ == "__main__":

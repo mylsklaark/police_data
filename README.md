@@ -23,6 +23,7 @@ pip install -r requirements.txt
 ## Data source
 
 - Data comes from the UK Police open data API (data.police.uk)
+- The pipeline queries the last_updated endpoint before ingesting to ensure it only requests published data
 - Street level crimes is the specific endpoint used
 - No authentication required
 - Default location is Oxford, but can be configured
