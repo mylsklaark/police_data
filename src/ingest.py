@@ -72,7 +72,7 @@ def get_last_updated() -> datetime:
     except requests.HTTPError as e:
         logger.error("Error fetching last updated date: %s", e)
         raise
-    return datetime.strptime(response.json()["date"], "%Y-%m")
+    return datetime.strptime(response.json()["date"], "%Y-%m-%d")
 
 def ingest_time_window(months: int = 12, lat: float = 51.75, lng: float = -1.25) -> None:
     """Ingests crime data for a specified number of past months.
