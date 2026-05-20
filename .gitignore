@@ -1,4 +1,5 @@
 .mypy_cache/
+docs/crime_by_category.svg 
 data/raw/
 data/processed/
 .venv/
