@@ -269,3 +269,6 @@
 2026-05-20 21:34:35,343 - INFO - Connecting to database data/crime_data.db
 2026-05-20 21:34:35,344 - INFO - Loaded 14 categories from database
 2026-05-20 21:34:35,671 - INFO - Saved chart to docs/crime_by_category.svg
+2026-05-20 21:57:07,776 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:57:07,783 - INFO - Loaded 14 categories from database
+2026-05-20 21:57:08,059 - INFO - Saved chart to docs/crime_by_category.svg

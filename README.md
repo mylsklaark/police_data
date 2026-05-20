@@ -64,3 +64,7 @@ The SQLite database is at data/crime_data.db
 | longitude | Longitude of the crime location |
 | street | Approximate street name |
 | outcome_status | Latest recorded outcome category |
+
+## Chart
+
+![Crimes by category](docs/crime_by_category.svg)
