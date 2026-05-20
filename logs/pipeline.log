@@ -1,0 +1,271 @@
+2026-05-20 20:55:19,121 - INFO - Connecting to database data/crime_data.db
+2026-05-20 20:55:19,127 - INFO - Loaded 14 categories from database
+2026-05-20 20:55:20,005 - INFO - Saved chart to docs/crime_by_category.svg
+2026-05-20 21:00:18,575 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:00:18,580 - INFO - Loaded 14 categories from database
+2026-05-20 21:00:18,742 - INFO - Saved chart to docs/crime_by_category.svg
+2026-05-20 21:06:58,091 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:07:24,177 - INFO - Fetching crime data for 2026-03 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:07:24,279 - INFO - Saved raw data for 2026-03 to data/raw/crimes_2026-03.json
+2026-05-20 21:07:24,279 - INFO - Fetching crime data for 2026-02 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:07:24,381 - INFO - Saved raw data for 2026-02 to data/raw/crimes_2026-02.json
+2026-05-20 21:07:24,381 - INFO - Fetching crime data for 2026-01 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:07:24,485 - INFO - Saved raw data for 2026-01 to data/raw/crimes_2026-01.json
+2026-05-20 21:07:24,486 - INFO - Fetching crime data for 2025-12 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:07:24,590 - INFO - Saved raw data for 2025-12 to data/raw/crimes_2025-12.json
+2026-05-20 21:07:24,591 - INFO - Fetching crime data for 2025-11 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:07:24,692 - INFO - Saved raw data for 2025-11 to data/raw/crimes_2025-11.json
+2026-05-20 21:07:24,693 - INFO - Fetching crime data for 2025-10 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:07:24,793 - INFO - Saved raw data for 2025-10 to data/raw/crimes_2025-10.json
+2026-05-20 21:07:24,794 - INFO - Fetching crime data for 2025-09 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:07:24,895 - INFO - Saved raw data for 2025-09 to data/raw/crimes_2025-09.json
+2026-05-20 21:07:24,895 - INFO - Fetching crime data for 2025-08 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:07:24,964 - ERROR - Error fetching crime data for 2025-08: 429 Client Error: Too Many Requests for url: https://data.police.uk/api/crimes-street/all-crime?date=2025-08&lat=51.75&lng=-1.25
+2026-05-20 21:07:25,298 - INFO - Loading raw data from data/raw/crimes_2026-02.json
+2026-05-20 21:07:25,300 - INFO - Loaded 485 crimes from data/raw/crimes_2026-02.json
+2026-05-20 21:07:25,303 - INFO - Saved transformed dataframe of length 485 to data/processed/transformed_2026-02.csv
+2026-05-20 21:07:25,304 - INFO - Loading raw data from data/raw/crimes_2025-12.json
+2026-05-20 21:07:25,305 - INFO - Loaded 503 crimes from data/raw/crimes_2025-12.json
+2026-05-20 21:07:25,307 - INFO - Saved transformed dataframe of length 503 to data/processed/transformed_2025-12.csv
+2026-05-20 21:07:25,307 - INFO - Loading raw data from data/raw/crimes_2025-09.json
+2026-05-20 21:07:25,308 - INFO - Loaded 556 crimes from data/raw/crimes_2025-09.json
+2026-05-20 21:07:25,310 - INFO - Saved transformed dataframe of length 556 to data/processed/transformed_2025-09.csv
+2026-05-20 21:07:25,310 - INFO - Loading raw data from data/raw/crimes_2026-03.json
+2026-05-20 21:07:25,310 - INFO - Loaded 492 crimes from data/raw/crimes_2026-03.json
+2026-05-20 21:07:25,312 - INFO - Saved transformed dataframe of length 492 to data/processed/transformed_2026-03.csv
+2026-05-20 21:07:25,312 - INFO - Loading raw data from data/raw/crimes_2024-01.json
+2026-05-20 21:07:25,313 - INFO - Loaded 479 crimes from data/raw/crimes_2024-01.json
+2026-05-20 21:07:25,316 - INFO - Saved transformed dataframe of length 479 to data/processed/transformed_2024-01.csv
+2026-05-20 21:07:25,316 - INFO - Loading raw data from data/raw/crimes_2025-10.json
+2026-05-20 21:07:25,317 - INFO - Loaded 605 crimes from data/raw/crimes_2025-10.json
+2026-05-20 21:07:25,319 - INFO - Saved transformed dataframe of length 605 to data/processed/transformed_2025-10.csv
+2026-05-20 21:07:25,319 - INFO - Loading raw data from data/raw/crimes_2026-01.json
+2026-05-20 21:07:25,320 - INFO - Loaded 444 crimes from data/raw/crimes_2026-01.json
+2026-05-20 21:07:25,322 - INFO - Saved transformed dataframe of length 444 to data/processed/transformed_2026-01.csv
+2026-05-20 21:07:25,323 - INFO - Loading raw data from data/raw/crimes_2025-11.json
+2026-05-20 21:07:25,324 - INFO - Loaded 612 crimes from data/raw/crimes_2025-11.json
+2026-05-20 21:07:25,326 - INFO - Saved transformed dataframe of length 612 to data/processed/transformed_2025-11.csv
+2026-05-20 21:07:25,558 - INFO - Loading transformed data from data/processed/transformed_2024-01.csv
+2026-05-20 21:07:25,561 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:07:25,565 - INFO - Loaded dataframe of length 479 to database data/crime_data.db
+2026-05-20 21:07:25,565 - INFO - Loading transformed data from data/processed/transformed_2026-01.csv
+2026-05-20 21:07:25,566 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:07:25,568 - INFO - Loaded dataframe of length 444 to database data/crime_data.db
+2026-05-20 21:07:25,568 - INFO - Loading transformed data from data/processed/transformed_2026-03.csv
+2026-05-20 21:07:25,568 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:07:25,570 - INFO - Loaded dataframe of length 492 to database data/crime_data.db
+2026-05-20 21:07:25,570 - INFO - Loading transformed data from data/processed/transformed_2026-02.csv
+2026-05-20 21:07:25,571 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:07:25,573 - INFO - Loaded dataframe of length 485 to database data/crime_data.db
+2026-05-20 21:07:25,573 - INFO - Loading transformed data from data/processed/transformed_2025-09.csv
+2026-05-20 21:07:25,574 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:07:25,576 - INFO - Loaded dataframe of length 556 to database data/crime_data.db
+2026-05-20 21:07:25,576 - INFO - Loading transformed data from data/processed/transformed_2025-12.csv
+2026-05-20 21:07:25,577 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:07:25,578 - INFO - Loaded dataframe of length 503 to database data/crime_data.db
+2026-05-20 21:07:25,578 - INFO - Loading transformed data from data/processed/transformed_2025-10.csv
+2026-05-20 21:07:25,579 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:07:25,581 - INFO - Loaded dataframe of length 605 to database data/crime_data.db
+2026-05-20 21:07:25,581 - INFO - Loading transformed data from data/processed/transformed_2025-11.csv
+2026-05-20 21:07:25,582 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:07:25,584 - INFO - Loaded dataframe of length 612 to database data/crime_data.db
+2026-05-20 21:11:41,533 - INFO - Fetching crime data for 2026-03 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:41,631 - INFO - Saved raw data for 2026-03 to data/raw/crimes_2026-03.json
+2026-05-20 21:11:42,636 - INFO - Fetching crime data for 2026-02 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:42,738 - INFO - Saved raw data for 2026-02 to data/raw/crimes_2026-02.json
+2026-05-20 21:11:43,744 - INFO - Fetching crime data for 2026-01 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:43,850 - INFO - Saved raw data for 2026-01 to data/raw/crimes_2026-01.json
+2026-05-20 21:11:44,856 - INFO - Fetching crime data for 2025-12 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:44,975 - INFO - Saved raw data for 2025-12 to data/raw/crimes_2025-12.json
+2026-05-20 21:11:45,980 - INFO - Fetching crime data for 2025-11 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:46,101 - INFO - Saved raw data for 2025-11 to data/raw/crimes_2025-11.json
+2026-05-20 21:11:47,103 - INFO - Fetching crime data for 2025-10 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:47,213 - INFO - Saved raw data for 2025-10 to data/raw/crimes_2025-10.json
+2026-05-20 21:11:48,219 - INFO - Fetching crime data for 2025-09 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:48,324 - INFO - Saved raw data for 2025-09 to data/raw/crimes_2025-09.json
+2026-05-20 21:11:49,330 - INFO - Fetching crime data for 2025-08 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:49,436 - INFO - Saved raw data for 2025-08 to data/raw/crimes_2025-08.json
+2026-05-20 21:11:50,440 - INFO - Fetching crime data for 2025-07 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:50,551 - INFO - Saved raw data for 2025-07 to data/raw/crimes_2025-07.json
+2026-05-20 21:11:51,555 - INFO - Fetching crime data for 2025-06 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:51,668 - INFO - Saved raw data for 2025-06 to data/raw/crimes_2025-06.json
+2026-05-20 21:11:52,674 - INFO - Fetching crime data for 2025-05 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:52,791 - INFO - Saved raw data for 2025-05 to data/raw/crimes_2025-05.json
+2026-05-20 21:11:53,797 - INFO - Fetching crime data for 2025-04 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:11:53,907 - INFO - Saved raw data for 2025-04 to data/raw/crimes_2025-04.json
+2026-05-20 21:11:55,300 - INFO - Loading raw data from data/raw/crimes_2025-04.json
+2026-05-20 21:11:55,301 - INFO - Loaded 469 crimes from data/raw/crimes_2025-04.json
+2026-05-20 21:11:55,305 - INFO - Saved transformed dataframe of length 469 to data/processed/transformed_2025-04.csv
+2026-05-20 21:11:55,305 - INFO - Loading raw data from data/raw/crimes_2026-02.json
+2026-05-20 21:11:55,307 - INFO - Loaded 485 crimes from data/raw/crimes_2026-02.json
+2026-05-20 21:11:55,309 - INFO - Saved transformed dataframe of length 485 to data/processed/transformed_2026-02.csv
+2026-05-20 21:11:55,309 - INFO - Loading raw data from data/raw/crimes_2025-12.json
+2026-05-20 21:11:55,310 - INFO - Loaded 503 crimes from data/raw/crimes_2025-12.json
+2026-05-20 21:11:55,312 - INFO - Saved transformed dataframe of length 503 to data/processed/transformed_2025-12.csv
+2026-05-20 21:11:55,312 - INFO - Loading raw data from data/raw/crimes_2025-08.json
+2026-05-20 21:11:55,313 - INFO - Loaded 555 crimes from data/raw/crimes_2025-08.json
+2026-05-20 21:11:55,315 - INFO - Saved transformed dataframe of length 555 to data/processed/transformed_2025-08.csv
+2026-05-20 21:11:55,315 - INFO - Loading raw data from data/raw/crimes_2025-09.json
+2026-05-20 21:11:55,317 - INFO - Loaded 556 crimes from data/raw/crimes_2025-09.json
+2026-05-20 21:11:55,319 - INFO - Saved transformed dataframe of length 556 to data/processed/transformed_2025-09.csv
+2026-05-20 21:11:55,319 - INFO - Loading raw data from data/raw/crimes_2026-03.json
+2026-05-20 21:11:55,320 - INFO - Loaded 492 crimes from data/raw/crimes_2026-03.json
+2026-05-20 21:11:55,322 - INFO - Saved transformed dataframe of length 492 to data/processed/transformed_2026-03.csv
+2026-05-20 21:11:55,322 - INFO - Loading raw data from data/raw/crimes_2025-05.json
+2026-05-20 21:11:55,323 - INFO - Loaded 532 crimes from data/raw/crimes_2025-05.json
+2026-05-20 21:11:55,325 - INFO - Saved transformed dataframe of length 532 to data/processed/transformed_2025-05.csv
+2026-05-20 21:11:55,325 - INFO - Loading raw data from data/raw/crimes_2025-10.json
+2026-05-20 21:11:55,327 - INFO - Loaded 605 crimes from data/raw/crimes_2025-10.json
+2026-05-20 21:11:55,329 - INFO - Saved transformed dataframe of length 605 to data/processed/transformed_2025-10.csv
+2026-05-20 21:11:55,329 - INFO - Loading raw data from data/raw/crimes_2025-06.json
+2026-05-20 21:11:55,330 - INFO - Loaded 527 crimes from data/raw/crimes_2025-06.json
+2026-05-20 21:11:55,332 - INFO - Saved transformed dataframe of length 527 to data/processed/transformed_2025-06.csv
+2026-05-20 21:11:55,333 - INFO - Loading raw data from data/raw/crimes_2025-07.json
+2026-05-20 21:11:55,334 - INFO - Loaded 578 crimes from data/raw/crimes_2025-07.json
+2026-05-20 21:11:55,336 - INFO - Saved transformed dataframe of length 578 to data/processed/transformed_2025-07.csv
+2026-05-20 21:11:55,336 - INFO - Loading raw data from data/raw/crimes_2026-01.json
+2026-05-20 21:11:55,337 - INFO - Loaded 444 crimes from data/raw/crimes_2026-01.json
+2026-05-20 21:11:55,339 - INFO - Saved transformed dataframe of length 444 to data/processed/transformed_2026-01.csv
+2026-05-20 21:11:55,339 - INFO - Loading raw data from data/raw/crimes_2025-11.json
+2026-05-20 21:11:55,340 - INFO - Loaded 612 crimes from data/raw/crimes_2025-11.json
+2026-05-20 21:11:55,343 - INFO - Saved transformed dataframe of length 612 to data/processed/transformed_2025-11.csv
+2026-05-20 21:11:55,611 - INFO - Loading transformed data from data/processed/transformed_2026-01.csv
+2026-05-20 21:11:55,614 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,619 - INFO - Loaded dataframe of length 444 to database data/crime_data.db
+2026-05-20 21:11:55,619 - INFO - Loading transformed data from data/processed/transformed_2026-03.csv
+2026-05-20 21:11:55,620 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,621 - INFO - Loaded dataframe of length 492 to database data/crime_data.db
+2026-05-20 21:11:55,622 - INFO - Loading transformed data from data/processed/transformed_2026-02.csv
+2026-05-20 21:11:55,622 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,624 - INFO - Loaded dataframe of length 485 to database data/crime_data.db
+2026-05-20 21:11:55,624 - INFO - Loading transformed data from data/processed/transformed_2025-08.csv
+2026-05-20 21:11:55,625 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,627 - INFO - Loaded dataframe of length 555 to database data/crime_data.db
+2026-05-20 21:11:55,627 - INFO - Loading transformed data from data/processed/transformed_2025-09.csv
+2026-05-20 21:11:55,628 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,630 - INFO - Loaded dataframe of length 556 to database data/crime_data.db
+2026-05-20 21:11:55,630 - INFO - Loading transformed data from data/processed/transformed_2025-07.csv
+2026-05-20 21:11:55,631 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,633 - INFO - Loaded dataframe of length 578 to database data/crime_data.db
+2026-05-20 21:11:55,633 - INFO - Loading transformed data from data/processed/transformed_2025-12.csv
+2026-05-20 21:11:55,634 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,636 - INFO - Loaded dataframe of length 503 to database data/crime_data.db
+2026-05-20 21:11:55,636 - INFO - Loading transformed data from data/processed/transformed_2025-06.csv
+2026-05-20 21:11:55,637 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,639 - INFO - Loaded dataframe of length 527 to database data/crime_data.db
+2026-05-20 21:11:55,639 - INFO - Loading transformed data from data/processed/transformed_2025-10.csv
+2026-05-20 21:11:55,640 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,642 - INFO - Loaded dataframe of length 605 to database data/crime_data.db
+2026-05-20 21:11:55,642 - INFO - Loading transformed data from data/processed/transformed_2025-04.csv
+2026-05-20 21:11:55,643 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,645 - INFO - Loaded dataframe of length 469 to database data/crime_data.db
+2026-05-20 21:11:55,645 - INFO - Loading transformed data from data/processed/transformed_2025-05.csv
+2026-05-20 21:11:55,645 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,647 - INFO - Loaded dataframe of length 532 to database data/crime_data.db
+2026-05-20 21:11:55,647 - INFO - Loading transformed data from data/processed/transformed_2025-11.csv
+2026-05-20 21:11:55,648 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:55,651 - INFO - Loaded dataframe of length 612 to database data/crime_data.db
+2026-05-20 21:11:56,094 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:11:56,095 - INFO - Loaded 14 categories from database
+2026-05-20 21:11:56,317 - INFO - Saved chart to docs/crime_by_category.svg
+2026-05-20 21:34:19,745 - INFO - Fetching crime data for 2026-03 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:19,859 - INFO - Saved raw data for 2026-03 to data/raw/crimes_2026-03.json
+2026-05-20 21:34:20,865 - INFO - Fetching crime data for 2026-02 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:20,977 - INFO - Saved raw data for 2026-02 to data/raw/crimes_2026-02.json
+2026-05-20 21:34:21,982 - INFO - Fetching crime data for 2026-01 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:22,333 - INFO - Saved raw data for 2026-01 to data/raw/crimes_2026-01.json
+2026-05-20 21:34:23,339 - INFO - Fetching crime data for 2025-12 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:23,444 - INFO - Saved raw data for 2025-12 to data/raw/crimes_2025-12.json
+2026-05-20 21:34:24,446 - INFO - Fetching crime data for 2025-11 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:24,566 - INFO - Saved raw data for 2025-11 to data/raw/crimes_2025-11.json
+2026-05-20 21:34:25,570 - INFO - Fetching crime data for 2025-10 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:25,684 - INFO - Saved raw data for 2025-10 to data/raw/crimes_2025-10.json
+2026-05-20 21:34:26,689 - INFO - Fetching crime data for 2025-09 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:26,795 - INFO - Saved raw data for 2025-09 to data/raw/crimes_2025-09.json
+2026-05-20 21:34:27,797 - INFO - Fetching crime data for 2025-08 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:28,229 - INFO - Saved raw data for 2025-08 to data/raw/crimes_2025-08.json
+2026-05-20 21:34:29,235 - INFO - Fetching crime data for 2025-07 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:29,345 - INFO - Saved raw data for 2025-07 to data/raw/crimes_2025-07.json
+2026-05-20 21:34:30,349 - INFO - Fetching crime data for 2025-06 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:30,851 - INFO - Saved raw data for 2025-06 to data/raw/crimes_2025-06.json
+2026-05-20 21:34:31,857 - INFO - Fetching crime data for 2025-05 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:31,963 - INFO - Saved raw data for 2025-05 to data/raw/crimes_2025-05.json
+2026-05-20 21:34:32,969 - INFO - Fetching crime data for 2025-04 from https://data.police.uk/api/crimes-street/all-crime
+2026-05-20 21:34:33,073 - INFO - Saved raw data for 2025-04 to data/raw/crimes_2025-04.json
+2026-05-20 21:34:34,577 - INFO - Loading raw data from data/raw/crimes_2025-04.json
+2026-05-20 21:34:34,578 - INFO - Loaded 469 crimes from data/raw/crimes_2025-04.json
+2026-05-20 21:34:34,582 - INFO - Saved transformed dataframe of length 469 to data/processed/transformed_2025-04.csv
+2026-05-20 21:34:34,582 - INFO - Loading raw data from data/raw/crimes_2026-02.json
+2026-05-20 21:34:34,583 - INFO - Loaded 485 crimes from data/raw/crimes_2026-02.json
+2026-05-20 21:34:34,585 - INFO - Saved transformed dataframe of length 485 to data/processed/transformed_2026-02.csv
+2026-05-20 21:34:34,586 - INFO - Loading raw data from data/raw/crimes_2025-12.json
+2026-05-20 21:34:34,587 - INFO - Loaded 503 crimes from data/raw/crimes_2025-12.json
+2026-05-20 21:34:34,588 - INFO - Saved transformed dataframe of length 503 to data/processed/transformed_2025-12.csv
+2026-05-20 21:34:34,588 - INFO - Loading raw data from data/raw/crimes_2025-08.json
+2026-05-20 21:34:34,590 - INFO - Loaded 555 crimes from data/raw/crimes_2025-08.json
+2026-05-20 21:34:34,592 - INFO - Saved transformed dataframe of length 555 to data/processed/transformed_2025-08.csv
+2026-05-20 21:34:34,592 - INFO - Loading raw data from data/raw/crimes_2025-09.json
+2026-05-20 21:34:34,593 - INFO - Loaded 556 crimes from data/raw/crimes_2025-09.json
+2026-05-20 21:34:34,596 - INFO - Saved transformed dataframe of length 556 to data/processed/transformed_2025-09.csv
+2026-05-20 21:34:34,596 - INFO - Loading raw data from data/raw/crimes_2026-03.json
+2026-05-20 21:34:34,597 - INFO - Loaded 492 crimes from data/raw/crimes_2026-03.json
+2026-05-20 21:34:34,599 - INFO - Saved transformed dataframe of length 492 to data/processed/transformed_2026-03.csv
+2026-05-20 21:34:34,599 - INFO - Loading raw data from data/raw/crimes_2025-05.json
+2026-05-20 21:34:34,600 - INFO - Loaded 532 crimes from data/raw/crimes_2025-05.json
+2026-05-20 21:34:34,602 - INFO - Saved transformed dataframe of length 532 to data/processed/transformed_2025-05.csv
+2026-05-20 21:34:34,602 - INFO - Loading raw data from data/raw/crimes_2025-10.json
+2026-05-20 21:34:34,603 - INFO - Loaded 605 crimes from data/raw/crimes_2025-10.json
+2026-05-20 21:34:34,606 - INFO - Saved transformed dataframe of length 605 to data/processed/transformed_2025-10.csv
+2026-05-20 21:34:34,606 - INFO - Loading raw data from data/raw/crimes_2025-06.json
+2026-05-20 21:34:34,607 - INFO - Loaded 527 crimes from data/raw/crimes_2025-06.json
+2026-05-20 21:34:34,609 - INFO - Saved transformed dataframe of length 527 to data/processed/transformed_2025-06.csv
+2026-05-20 21:34:34,609 - INFO - Loading raw data from data/raw/crimes_2025-07.json
+2026-05-20 21:34:34,610 - INFO - Loaded 578 crimes from data/raw/crimes_2025-07.json
+2026-05-20 21:34:34,612 - INFO - Saved transformed dataframe of length 578 to data/processed/transformed_2025-07.csv
+2026-05-20 21:34:34,612 - INFO - Loading raw data from data/raw/crimes_2026-01.json
+2026-05-20 21:34:34,614 - INFO - Loaded 444 crimes from data/raw/crimes_2026-01.json
+2026-05-20 21:34:34,615 - INFO - Saved transformed dataframe of length 444 to data/processed/transformed_2026-01.csv
+2026-05-20 21:34:34,615 - INFO - Loading raw data from data/raw/crimes_2025-11.json
+2026-05-20 21:34:34,617 - INFO - Loaded 612 crimes from data/raw/crimes_2025-11.json
+2026-05-20 21:34:34,619 - INFO - Saved transformed dataframe of length 612 to data/processed/transformed_2025-11.csv
+2026-05-20 21:34:34,851 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,855 - INFO - Cleared crime_data table in database data/crime_data.db
+2026-05-20 21:34:34,855 - INFO - Loading transformed data from data/processed/transformed_2026-01.csv
+2026-05-20 21:34:34,857 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,862 - INFO - Loaded dataframe of length 444 to database data/crime_data.db
+2026-05-20 21:34:34,862 - INFO - Loading transformed data from data/processed/transformed_2026-03.csv
+2026-05-20 21:34:34,863 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,864 - INFO - Loaded dataframe of length 492 to database data/crime_data.db
+2026-05-20 21:34:34,864 - INFO - Loading transformed data from data/processed/transformed_2026-02.csv
+2026-05-20 21:34:34,865 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,866 - INFO - Loaded dataframe of length 485 to database data/crime_data.db
+2026-05-20 21:34:34,867 - INFO - Loading transformed data from data/processed/transformed_2025-08.csv
+2026-05-20 21:34:34,867 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,869 - INFO - Loaded dataframe of length 555 to database data/crime_data.db
+2026-05-20 21:34:34,869 - INFO - Loading transformed data from data/processed/transformed_2025-09.csv
+2026-05-20 21:34:34,870 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,871 - INFO - Loaded dataframe of length 556 to database data/crime_data.db
+2026-05-20 21:34:34,871 - INFO - Loading transformed data from data/processed/transformed_2025-07.csv
+2026-05-20 21:34:34,872 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,874 - INFO - Loaded dataframe of length 578 to database data/crime_data.db
+2026-05-20 21:34:34,874 - INFO - Loading transformed data from data/processed/transformed_2025-12.csv
+2026-05-20 21:34:34,874 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,876 - INFO - Loaded dataframe of length 503 to database data/crime_data.db
+2026-05-20 21:34:34,876 - INFO - Loading transformed data from data/processed/transformed_2025-06.csv
+2026-05-20 21:34:34,877 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,878 - INFO - Loaded dataframe of length 527 to database data/crime_data.db
+2026-05-20 21:34:34,878 - INFO - Loading transformed data from data/processed/transformed_2025-10.csv
+2026-05-20 21:34:34,879 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,880 - INFO - Loaded dataframe of length 605 to database data/crime_data.db
+2026-05-20 21:34:34,880 - INFO - Loading transformed data from data/processed/transformed_2025-04.csv
+2026-05-20 21:34:34,881 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,882 - INFO - Loaded dataframe of length 469 to database data/crime_data.db
+2026-05-20 21:34:34,882 - INFO - Loading transformed data from data/processed/transformed_2025-05.csv
+2026-05-20 21:34:34,883 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,884 - INFO - Loaded dataframe of length 532 to database data/crime_data.db
+2026-05-20 21:34:34,884 - INFO - Loading transformed data from data/processed/transformed_2025-11.csv
+2026-05-20 21:34:34,885 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:34,887 - INFO - Loaded dataframe of length 612 to database data/crime_data.db
+2026-05-20 21:34:35,343 - INFO - Connecting to database data/crime_data.db
+2026-05-20 21:34:35,344 - INFO - Loaded 14 categories from database
+2026-05-20 21:34:35,671 - INFO - Saved chart to docs/crime_by_category.svg

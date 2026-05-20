@@ -30,7 +30,27 @@ def load_data(dataframe: pd.DataFrame, database: str = "data/crime_data.db") -> 
         raise
     logger.info("Loaded dataframe of length %s to database %s", len(dataframe), database)
 
+def clear_table(database: str = "data/crime_data.db") -> None:
+    """Clears the crime_data table in the SQLite database.
+    
+    Args:
+        database (str, optional): The path to the SQLite database file. 
+            Defaults to "data/crime_data.db".
+    
+    """
+    
+    logger.info("Connecting to database %s", database)
+    try:
+        with sqlite3.connect(database) as conn:
+            cursor = conn.cursor()
+            cursor.execute("DROP TABLE IF EXISTS crime_data")
+    except sqlite3.Error as e:
+        logger.exception("Error connecting to database %s: %s", database, e)
+        raise
+    logger.info("Cleared crime_data table in database %s", database)
+
 if __name__ == "__main__":
+    clear_table()
     transformed_files = list(Path("data/processed").glob("*.csv"))
     for transformed_file in transformed_files:
         logger.info("Loading transformed data from %s", transformed_file)

@@ -1,6 +1,7 @@
 import logging
 from datetime import datetime
 from pathlib import Path
+import time
 
 import requests
 from dateutil.relativedelta import relativedelta
@@ -86,6 +87,7 @@ def ingest_time_window(months: int = 12, lat: float = 51.75, lng: float = -1.25)
     for i in range(months):
         date = (latest - relativedelta(months=i)).strftime("%Y-%m")
         ingest(date, lat, lng)
+        time.sleep(1)
 
 if __name__ == "__main__":
     ingest_time_window()
